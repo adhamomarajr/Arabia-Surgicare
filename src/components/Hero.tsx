@@ -49,22 +49,7 @@ export const Hero: React.FC = () => {
               {t('navSpecializations')}
             </a>
           </div>
-          <div className="flex flex-col sm:flex-row items-center gap-4 pt-4 justify-center lg:justify-start">
-            <button className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white rounded-2xl font-bold text-lg shadow-lg shadow-purple-600/30 hover:shadow-purple-600/40 hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2 group">
-              <Calendar className="h-5 w-5 group-hover:scale-110 transition-transform" />
-              {t('bookAppointment')}
-            </button>
-            
-            <a 
-              href="https://wa.me/201124641916"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full sm:w-auto px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-2xl font-bold text-lg shadow-lg shadow-emerald-500/30 hover:shadow-emerald-500/40 hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2 group"
-            >
-              <MessageCircle className="h-5 w-5 group-hover:scale-110 transition-transform" />
-              {language === 'ar' ? 'تواصل عبر واتساب' : 'WhatsApp Contact'}
-            </a>
-          </div>
+
 
           <div className="pt-8 flex items-center gap-6 justify-center lg:justify-start">
             <div className="p-3 bg-slate-900/50 rounded-2xl border border-slate-800/80 backdrop-blur-xs">
