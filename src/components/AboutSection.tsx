@@ -1,6 +1,7 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
 import { Award, CheckCircle2, ShieldCheck, HeartHandshake } from 'lucide-react';
+import aboutHospitalNewImg from '../assets/images/about-hospital-new.jpeg';
 
 export const AboutSection: React.FC = () => {
   const { t, language } = useApp();
@@ -8,10 +9,10 @@ export const AboutSection: React.FC = () => {
   return (
     <section id="about-section" className="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
       <div className="lg:col-span-6 relative">
-        <div className="relative w-full aspect-video rounded-3xl overflow-hidden shadow-xl border border-slate-200">
+        <div className="relative w-full aspect-video rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100">
           <img
-            src="src\assets\images\about-hospital.jpeg"
-            alt="Hospital Surgical Theater"
+            src={aboutHospitalNewImg}
+            alt="Hospital Room"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent" />
