@@ -1,0 +1,8 @@
+{
+  "name": "Remix Arabia Surgicare Hospital",
+  "description": "Hospital website featuring 6 medical specialties, doctor directory with side tabs, WhatsApp appointment booking, bilingual AR/EN support, and admin management panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
