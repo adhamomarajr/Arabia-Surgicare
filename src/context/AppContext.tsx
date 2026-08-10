@@ -37,7 +37,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   // Load doctors from localStorage or initial list
   const [doctors, setDoctors] = useState<Doctor[]>(() => {
     try {
-      const saved = localStorage.getItem('arabia_hospital_doctors_v3');
+      const saved = localStorage.getItem('arabia_hospital_doctors_v4');
       if (saved) {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed) && parsed.length > 0) {
@@ -53,7 +53,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   // Save doctors to localStorage when modified
   useEffect(() => {
     try {
-      localStorage.setItem('arabia_hospital_doctors_v3', JSON.stringify(doctors));
+      localStorage.setItem('arabia_hospital_doctors_v4', JSON.stringify(doctors));
     } catch (e) {
       console.error('Error saving doctors to localStorage', e);
     }
