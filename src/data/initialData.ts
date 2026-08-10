@@ -5,6 +5,7 @@ import docAhmedNoshy from '../assets/images/ahmed-noshy.jpeg.jpeg';
 import docEhab from '../assets/images/ehab-khalil.jpeg.jpeg';
 import docMohamedRefaat from '../assets/images/mohamed-refaat.jpeg.jpeg';
 import docRaafat from '../assets/images/raafat-mahfouz.jpeg.jpeg';
+import docMohamedRagae from '../assets/images/dr_mohamed_ragae_1785329401695.jpg';
 
 export const INITIAL_SPECIALTIES: Specialty[] = [
   {
@@ -270,7 +271,7 @@ export const INITIAL_DOCTORS: Doctor[] = [
       ar: 'استشاري الطب النفسي والعلاج النفسي للأطفال والكبار',
       en: 'Consultant Psychiatrist & Mental Health Specialist'
     },
-    image: '/src/assets/images/dr_mohamed_ragae_1785329401695.jpg',
+    image: docMohamedRagae,
     experienceYears: 18,
     available: true,
     whatsapp: '201118573813',
